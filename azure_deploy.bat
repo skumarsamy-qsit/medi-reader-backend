@@ -1,0 +1,1 @@
+az webapp deploy -g LinuxB1_group -n qs-node-api --src-path ./medi-reader-backend.zip --type zip

@@ -1,0 +1,47 @@
+# dependencies
+node_modules/
+
+# expo
+.bolt/
+.expo/
+.expo-shared/
+.vscode/
+.husky/
+dist/
+serverside/dist
+build/
+web-build/
+expo-env.d.ts
+*debug.log
+*error.log
+
+# native
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.log
+
+
+# metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macos
+.DS_Store
+*.pem
+
+# local env files
+.env*.local
+.env
+
+# typescript
+*.tsbuildinfo
+logs/genai-2025-09-03.log
+logs/.8e85b6a1b33d9304dbe1895ad4fd30ecd6d7e7d2-audit.json

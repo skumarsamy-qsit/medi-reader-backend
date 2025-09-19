@@ -1,0 +1,52 @@
+{
+    "name": "medi-reader-backend",
+    "version": "1.0.0",
+    "description": "Backend API service for MediReader24 medical device data extraction",
+    "main": "dist/server.js",
+    "type": "module",
+    "scripts": {
+        "dev": "nodemon",
+        "dev:ts": "ts-node src/server.ts",
+        "dev:js": "node dist/server.js",
+        "build": "tsc",
+        "start": "node dist/server.js",
+        "clean": "rmdir -rf src/dist",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "medical",
+        "dialysis",
+        "ai",
+        "image-processing",
+        "openai",
+        "google-genai"
+    ],
+    "author": "MediReader24 Team",
+    "license": "MIT",
+    "dependencies": {
+        "@google/genai": "^1.16.0",
+        "@types/bcryptjs": "^2.4.6",
+        "@types/jsonwebtoken": "^9.0.10",
+        "@types/uuid": "^10.0.0",
+        "axios": "^1.12.1",
+        "bcryptjs": "^3.0.2",
+        "body-parser": "^2.2.0",
+        "cors": "^2.8.5",
+        "dotenv": "^16.6.1",
+        "express": "^5.1.0",
+        "jsonwebtoken": "^9.0.2",
+        "multer": "^2.0.2",
+        "uuid": "^13.0.0",
+        "winston": "^3.17.0",
+        "winston-daily-rotate-file": "^5.0.0"
+    },
+    "devDependencies": {
+        "@types/cors": "^2.8.19",
+        "@types/express": "^5.0.3",
+        "@types/multer": "^2.0.0",
+        "@types/node": "^20.0.0",
+        "nodemon": "^3.0.0",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.8.3"
+    }
+}
