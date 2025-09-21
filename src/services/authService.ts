@@ -15,6 +15,13 @@ export interface User {
   isPhoneVerified: boolean;
   createdAt: string;
   updatedAt: string;
+  enterpriseId: number;
+  enterpriseBusinessUnitId: number;
+  hasAdminRole: boolean;
+  hasDoctorRole: boolean;
+  hasNurseRole: boolean;
+  authorities: string;
+  authToken: string;
 }
 
 export interface AuthResponse {
@@ -104,6 +111,13 @@ class AuthService {
       isPhoneVerified: true,
       createdAt: new Date().toISOString(),
       updatedAt: new Date().toISOString(),
+      enterpriseId: 1,
+      enterpriseBusinessUnitId: 1,
+      hasAdminRole: true,
+      hasDoctorRole: false,
+      hasNurseRole: false,
+      authorities: 'admin',
+      authToken: '',
     };
 
     this.users.set(adminId, adminUser);
@@ -184,6 +198,13 @@ class AuthService {
           isPhoneVerified: false,
           createdAt: new Date().toISOString(),
           updatedAt: new Date().toISOString(),
+          enterpriseId: userResponse.enterpriseId,
+          enterpriseBusinessUnitId: userResponse.enterpriseBusinessUnitId,
+          hasAdminRole: userResponse.hasAdminRole,
+          hasDoctorRole: userResponse.hasDoctorRole,
+          hasNurseRole: userResponse.hasNurseRole,
+          authorities: userResponse.authorities,
+          authToken: userResponse.authToken,
         };
 
         // Store user locally for session management
@@ -286,6 +307,13 @@ class AuthService {
         isPhoneVerified: false,
         createdAt: new Date().toISOString(),
         updatedAt: new Date().toISOString(),
+        enterpriseId: 1,
+        enterpriseBusinessUnitId: 1,
+        hasAdminRole: false,
+        hasDoctorRole: false,
+        hasNurseRole: false,
+        authorities: 'user',
+        authToken: '',
       };
 
       // Store user
