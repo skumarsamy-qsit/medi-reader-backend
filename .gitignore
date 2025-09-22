@@ -45,3 +45,4 @@ yarn-error.*
 *.tsbuildinfo
 logs/genai-2025-09-03.log
 logs/.8e85b6a1b33d9304dbe1895ad4fd30ecd6d7e7d2-audit.json
+logs/genai-2025-09-20.log.gz
