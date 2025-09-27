@@ -1,0 +1,1624 @@
+{
+    "success": true,
+    "data": {
+        "patients": [],
+        "devices": [],
+        "enterprise": {
+            "enterpriseId": 1,
+            "enterpriseName": "MINISTRY OF HEALTH",
+            "enterpriseCode2charCode": "MOH",
+            "enterpriseCode5charCode": "QST",
+            "businessRegistrationNumber": "0",
+            "businessUnit": [
+                {
+                    "businessUnitId": 2,
+                    "businessUnitName": "TUTONG DIALYSIS CENTRE",
+                    "shortName": "TDC",
+                    "businessUnit2charCode": "TT",
+                    "businessUnit10charCode": "TDC",
+                    "iotDevices": [
+                        {
+                            "deviceId": 24,
+                            "deviceName": "AK075090",
+                            "serialNumber": "075090",
+                            "brandName": 1,
+                            "model": 1,
+                            "remarks": "AK075090"
+                        },
+                        {
+                            "deviceId": 25,
+                            "deviceName": "AK075098",
+                            "serialNumber": "075098",
+                            "brandName": 1,
+                            "model": 1,
+                            "remarks": "AK075098"
+                        },
+                        {
+                            "deviceId": 26,
+                            "deviceName": "AK075086",
+                            "serialNumber": "075086",
+                            "brandName": 1,
+                            "model": 1,
+                            "remarks": "AK075086"
+                        },
+                        {
+                            "deviceId": 27,
+                            "deviceName": "AK075092",
+                            "serialNumber": "075092",
+                            "brandName": 1,
+                            "model": 1,
+                            "remarks": "AK075092"
+                        },
+                        {
+                            "deviceId": 28,
+                            "deviceName": "AK075103",
+                            "serialNumber": "075103",
+                            "brandName": 1,
+                            "model": 1,
+                            "remarks": "AK075103"
+                        },
+                        {
+                            "deviceId": 29,
+                            "deviceName": "AK075085",
+                            "serialNumber": "075085",
+                            "brandName": 1,
+                            "model": 1,
+                            "remarks": "AK075085"
+                        },
+                        {
+                            "deviceId": 30,
+                            "deviceName": "AK075091",
+                            "serialNumber": "075091",
+                            "brandName": 1,
+                            "model": 1,
+                            "remarks": "AK075091"
+                        },
+                        {
+                            "deviceId": 31,
+                            "deviceName": "AK075093",
+                            "serialNumber": "075093",
+                            "brandName": 1,
+                            "model": 1,
+                            "remarks": "AK075093"
+                        },
+                        {
+                            "deviceId": 32,
+                            "deviceName": "AK075084",
+                            "serialNumber": "075084",
+                            "brandName": 1,
+                            "model": 1,
+                            "remarks": "AK075084"
+                        },
+                        {
+                            "deviceId": 33,
+                            "deviceName": "AK075105",
+                            "serialNumber": "075105",
+                            "brandName": 1,
+                            "model": 1,
+                            "remarks": "AK075105"
+                        },
+                        {
+                            "deviceId": 34,
+                            "deviceName": "AK075087",
+                            "serialNumber": "075087",
+                            "brandName": 1,
+                            "model": 1,
+                            "remarks": "AK075087"
+                        },
+                        {
+                            "deviceId": 35,
+                            "deviceName": "AK075088",
+                            "serialNumber": "075088",
+                            "brandName": 1,
+                            "model": 1,
+                            "remarks": "AK075088"
+                        },
+                        {
+                            "deviceId": 36,
+                            "deviceName": "AK075089",
+                            "serialNumber": "075089",
+                            "brandName": 1,
+                            "model": 1,
+                            "remarks": "AK075089"
+                        },
+                        {
+                            "deviceId": 37,
+                            "deviceName": "AK075094",
+                            "serialNumber": "075094",
+                            "brandName": 1,
+                            "model": 1,
+                            "remarks": "AK075094"
+                        },
+                        {
+                            "deviceId": 38,
+                            "deviceName": "AK075095",
+                            "serialNumber": "075095",
+                            "brandName": 1,
+                            "model": 1,
+                            "remarks": "AK075095"
+                        },
+                        {
+                            "deviceId": 39,
+                            "deviceName": "AK075096",
+                            "serialNumber": "075096",
+                            "brandName": 1,
+                            "model": 1,
+                            "remarks": "AK075096"
+                        },
+                        {
+                            "deviceId": 40,
+                            "deviceName": "AK075097",
+                            "serialNumber": "075097",
+                            "brandName": 1,
+                            "model": 1,
+                            "remarks": "AK075097"
+                        },
+                        {
+                            "deviceId": 41,
+                            "deviceName": "AK075099",
+                            "serialNumber": "075099",
+                            "brandName": 1,
+                            "model": 1,
+                            "remarks": "AK075099"
+                        },
+                        {
+                            "deviceId": 42,
+                            "deviceName": "AK075100",
+                            "serialNumber": "075100",
+                            "brandName": 1,
+                            "model": 1,
+                            "remarks": "AK075100"
+                        },
+                        {
+                            "deviceId": 43,
+                            "deviceName": "AK075101",
+                            "serialNumber": "075101",
+                            "brandName": 1,
+                            "model": 1,
+                            "remarks": "AK075101"
+                        },
+                        {
+                            "deviceId": 44,
+                            "deviceName": "AK075102",
+                            "serialNumber": "075102",
+                            "brandName": 1,
+                            "model": 1,
+                            "remarks": "AK075102"
+                        },
+                        {
+                            "deviceId": 45,
+                            "deviceName": "AK075104",
+                            "serialNumber": "075104",
+                            "brandName": 1,
+                            "model": 1,
+                            "remarks": "AK075104"
+                        },
+                        {
+                            "deviceId": 46,
+                            "deviceName": "AK075106",
+                            "serialNumber": "075106",
+                            "brandName": 1,
+                            "model": 1,
+                            "remarks": "AK075106"
+                        },
+                        {
+                            "deviceId": 47,
+                            "deviceName": "AK076431",
+                            "serialNumber": "076431",
+                            "brandName": 1,
+                            "model": 1,
+                            "remarks": "AK076431"
+                        },
+                        {
+                            "deviceId": 48,
+                            "deviceName": "AK076432",
+                            "serialNumber": "076432",
+                            "brandName": 1,
+                            "model": 1,
+                            "remarks": "AK076432"
+                        },
+                        {
+                            "deviceId": 49,
+                            "deviceName": "HDCR01",
+                            "serialNumber": "075084",
+                            "brandName": 3,
+                            "model": 4,
+                            "remarks": "AK075084"
+                        },
+                        {
+                            "deviceId": 50,
+                            "deviceName": "HDCR02",
+                            "serialNumber": "075085",
+                            "brandName": 3,
+                            "model": 4,
+                            "remarks": "AK075085"
+                        },
+                        {
+                            "deviceId": 51,
+                            "deviceName": "HDCR03",
+                            "serialNumber": "075086",
+                            "brandName": 3,
+                            "model": 4,
+                            "remarks": "AK075086"
+                        },
+                        {
+                            "deviceId": 52,
+                            "deviceName": "HDCR04",
+                            "serialNumber": "075087",
+                            "brandName": 3,
+                            "model": 4,
+                            "remarks": "AK075087"
+                        },
+                        {
+                            "deviceId": 55,
+                            "deviceName": "HDCR05",
+                            "serialNumber": "075088",
+                            "brandName": 3,
+                            "model": 4,
+                            "remarks": "AK075088"
+                        },
+                        {
+                            "deviceId": 56,
+                            "deviceName": "HDCR06",
+                            "serialNumber": "075089",
+                            "brandName": 3,
+                            "model": 4,
+                            "remarks": "AK075089"
+                        },
+                        {
+                            "deviceId": 57,
+                            "deviceName": "HDCR07",
+                            "serialNumber": "075090",
+                            "brandName": 3,
+                            "model": 4,
+                            "remarks": "AK075090"
+                        },
+                        {
+                            "deviceId": 58,
+                            "deviceName": "HDCR08",
+                            "serialNumber": "075091",
+                            "brandName": 3,
+                            "model": 4,
+                            "remarks": "AK075091"
+                        },
+                        {
+                            "deviceId": 59,
+                            "deviceName": "HDCR09",
+                            "serialNumber": "075092",
+                            "brandName": 3,
+                            "model": 4,
+                            "remarks": "AK075092"
+                        },
+                        {
+                            "deviceId": 60,
+                            "deviceName": "HDCR10",
+                            "serialNumber": "075093",
+                            "brandName": 3,
+                            "model": 4,
+                            "remarks": "AK075093"
+                        },
+                        {
+                            "deviceId": 61,
+                            "deviceName": "HDCR11",
+                            "serialNumber": "075094",
+                            "brandName": 3,
+                            "model": 4,
+                            "remarks": "AK075094"
+                        },
+                        {
+                            "deviceId": 62,
+                            "deviceName": "HDCR12",
+                            "serialNumber": "075095",
+                            "brandName": 3,
+                            "model": 4,
+                            "remarks": "AK075095"
+                        },
+                        {
+                            "deviceId": 63,
+                            "deviceName": "HDCR13",
+                            "serialNumber": "075096",
+                            "brandName": 3,
+                            "model": 4,
+                            "remarks": "AK075096"
+                        },
+                        {
+                            "deviceId": 64,
+                            "deviceName": "HDCR14",
+                            "serialNumber": "075097",
+                            "brandName": 3,
+                            "model": 4,
+                            "remarks": "AK075097"
+                        },
+                        {
+                            "deviceId": 65,
+                            "deviceName": "HDCR15",
+                            "serialNumber": "075098",
+                            "brandName": 3,
+                            "model": 4,
+                            "remarks": "AK075098"
+                        },
+                        {
+                            "deviceId": 66,
+                            "deviceName": "HDCR16",
+                            "serialNumber": "075099",
+                            "brandName": 3,
+                            "model": 4,
+                            "remarks": "AK075099"
+                        },
+                        {
+                            "deviceId": 67,
+                            "deviceName": "HDCR17",
+                            "serialNumber": "075100",
+                            "brandName": 3,
+                            "model": 4,
+                            "remarks": "AK075100"
+                        },
+                        {
+                            "deviceId": 68,
+                            "deviceName": "HDCR18",
+                            "serialNumber": "075101",
+                            "brandName": 3,
+                            "model": 4,
+                            "remarks": "AK075101"
+                        },
+                        {
+                            "deviceId": 69,
+                            "deviceName": "HDCR19",
+                            "serialNumber": "075102",
+                            "brandName": 3,
+                            "model": 4,
+                            "remarks": "AK075102"
+                        },
+                        {
+                            "deviceId": 70,
+                            "deviceName": "HDCR20",
+                            "serialNumber": "075103",
+                            "brandName": 3,
+                            "model": 4,
+                            "remarks": "AK075103"
+                        },
+                        {
+                            "deviceId": 71,
+                            "deviceName": "HDCR21",
+                            "serialNumber": "075104",
+                            "brandName": 3,
+                            "model": 4,
+                            "remarks": "AK075104"
+                        },
+                        {
+                            "deviceId": 72,
+                            "deviceName": "HDCR22",
+                            "serialNumber": "075105",
+                            "brandName": 3,
+                            "model": 4,
+                            "remarks": "AK075105"
+                        },
+                        {
+                            "deviceId": 73,
+                            "deviceName": "HDCR23",
+                            "serialNumber": "075106",
+                            "brandName": 3,
+                            "model": 4,
+                            "remarks": "AK075106"
+                        },
+                        {
+                            "deviceId": 74,
+                            "deviceName": "HDCR24",
+                            "serialNumber": "076431",
+                            "brandName": 3,
+                            "model": 4,
+                            "remarks": "AK076431"
+                        },
+                        {
+                            "deviceId": 75,
+                            "deviceName": "HDCR25",
+                            "serialNumber": "076432",
+                            "brandName": 3,
+                            "model": 4,
+                            "remarks": "AK076432"
+                        },
+                        {
+                            "deviceId": 76,
+                            "deviceName": "WSCR01",
+                            "serialNumber": "WSCR01",
+                            "brandName": 3,
+                            "model": 4,
+                            "remarks": "weighing scale"
+                        },
+                        {
+                            "deviceId": 77,
+                            "deviceName": "WSCR02",
+                            "serialNumber": "WSCR02",
+                            "brandName": 3,
+                            "model": 4,
+                            "remarks": "weighing scale"
+                        },
+                        {
+                            "deviceId": 78,
+                            "deviceName": "WSCR03",
+                            "serialNumber": "WSCR03",
+                            "brandName": 3,
+                            "model": 4,
+                            "remarks": "weighing scale"
+                        },
+                        {
+                            "deviceId": 79,
+                            "deviceName": "TTCW01",
+                            "serialNumber": "WSCW01",
+                            "brandName": 3,
+                            "model": 5,
+                            "remarks": "Card Writer - 01"
+                        }
+                    ],
+                    "systemUsers": [
+                        {
+                            "userId": 35,
+                            "userName": "Kumarasamy Shanmugam",
+                            "loginName": "kumar"
+                        },
+                        {
+                            "userId": 40,
+                            "userName": "anitha kannan",
+                            "loginName": "anitha "
+                        },
+                        {
+                            "userId": 140,
+                            "userName": "SALHLIDDIN",
+                            "loginName": "salhliddin"
+                        },
+                        {
+                            "userId": 141,
+                            "userName": "NORISUHAILAH",
+                            "loginName": "norisuhaila"
+                        },
+                        {
+                            "userId": 143,
+                            "userName": "NORHAYATI",
+                            "loginName": "norhayati"
+                        },
+                        {
+                            "userId": 144,
+                            "userName": "HASLINA",
+                            "loginName": "haslina"
+                        },
+                        {
+                            "userId": 146,
+                            "userName": "CHRISTINA",
+                            "loginName": "christina"
+                        },
+                        {
+                            "userId": 147,
+                            "userName": "ALIZAM",
+                            "loginName": "alizam"
+                        },
+                        {
+                            "userId": 148,
+                            "userName": "FAEZAH",
+                            "loginName": "faezah"
+                        },
+                        {
+                            "userId": 149,
+                            "userName": "NORAZEMAH",
+                            "loginName": "norazemah"
+                        },
+                        {
+                            "userId": 150,
+                            "userName": "RAFIDAH",
+                            "loginName": "rafidah"
+                        },
+                        {
+                            "userId": 151,
+                            "userName": "HJ HELMI",
+                            "loginName": "hjhelmi"
+                        },
+                        {
+                            "userId": 152,
+                            "userName": "ZAINAB",
+                            "loginName": "zainab"
+                        },
+                        {
+                            "userId": 153,
+                            "userName": "RAMLAN",
+                            "loginName": "ramlan"
+                        },
+                        {
+                            "userId": 156,
+                            "userName": "SABARIAH",
+                            "loginName": "sabariah"
+                        },
+                        {
+                            "userId": 1123,
+                            "userName": "banu",
+                            "loginName": "banu"
+                        },
+                        {
+                            "userId": 2123,
+                            "userName": "fatin",
+                            "loginName": "fatin"
+                        },
+                        {
+                            "userId": 2124,
+                            "userName": "amirah",
+                            "loginName": "amirah"
+                        },
+                        {
+                            "userId": 2125,
+                            "userName": "raihanah",
+                            "loginName": "raihanah"
+                        },
+                        {
+                            "userId": 2126,
+                            "userName": "wscr01",
+                            "loginName": "wscr01"
+                        },
+                        {
+                            "userId": 2127,
+                            "userName": "wscr03",
+                            "loginName": "wscr03"
+                        },
+                        {
+                            "userId": 2128,
+                            "userName": "wscr02",
+                            "loginName": "wscr02"
+                        },
+                        {
+                            "userId": 2129,
+                            "userName": "nazihah.hanafi",
+                            "loginName": "nazihah.hanafi"
+                        },
+                        {
+                            "userId": 2130,
+                            "userName": "munirah",
+                            "loginName": "munirah"
+                        },
+                        {
+                            "userId": 2135,
+                            "userName": "General",
+                            "loginName": "General"
+                        },
+                        {
+                            "userId": 2136,
+                            "userName": "FATINI",
+                            "loginName": "fatini"
+                        },
+                        {
+                            "userId": 2137,
+                            "userName": "najihah",
+                            "loginName": "najihah"
+                        },
+                        {
+                            "userId": 2138,
+                            "userName": "Einazlia",
+                            "loginName": "einazlia"
+                        },
+                        {
+                            "userId": 2139,
+                            "userName": "nurse1",
+                            "loginName": "nurse1"
+                        },
+                        {
+                            "userId": 2140,
+                            "userName": "Suriawati.Jumat",
+                            "loginName": "Suriawati.Jumat"
+                        }
+                    ],
+                    "patients": [
+                        {
+                            "patientId": 2011,
+                            "patientName": "MD HASSAN HJ MATUSIN",
+                            "nricFinNumber": "BN00004957",
+                            "dateOfBirth": "1968-03-27T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2012,
+                            "patientName": "SHIRIAH BINTI BUJANG",
+                            "nricFinNumber": "BN00005016",
+                            "dateOfBirth": "1960-12-01T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2013,
+                            "patientName": "MD AZUIN DEOK",
+                            "nricFinNumber": "BN00011077",
+                            "dateOfBirth": "1947-01-01T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2014,
+                            "patientName": "HJH HALIMAH HJ MANAF",
+                            "nricFinNumber": "BN00002682",
+                            "dateOfBirth": "1963-08-12T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2016,
+                            "patientName": "NUR HAMDANI ABD HADI",
+                            "nricFinNumber": "BN00035082",
+                            "dateOfBirth": "1973-01-15T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2017,
+                            "patientName": "HJ ABDULHAN HJ JAINI",
+                            "nricFinNumber": "BN03005095",
+                            "dateOfBirth": "1978-05-29T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2018,
+                            "patientName": "MASITA MASU",
+                            "nricFinNumber": "BN00007387",
+                            "dateOfBirth": "1974-10-10T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2020,
+                            "patientName": "ERNA ROZIANA BINTY YAHYA",
+                            "nricFinNumber": "01-043195",
+                            "dateOfBirth": "1990-10-08T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2021,
+                            "patientName": "HJH TEREMAT @ SITI RAHMAT",
+                            "nricFinNumber": "BN03000513",
+                            "dateOfBirth": "1944-01-01T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2022,
+                            "patientName": "HJ MOHD ZAILI ",
+                            "nricFinNumber": "BN00000819",
+                            "dateOfBirth": "1955-11-06T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2023,
+                            "patientName": "LINYANI KUNCHIL",
+                            "nricFinNumber": "BN03000907",
+                            "dateOfBirth": "1979-01-06T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2024,
+                            "patientName": "CHAN AH MOI",
+                            "nricFinNumber": "BN06000234",
+                            "dateOfBirth": "1953-10-09T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2025,
+                            "patientName": "DAYANG ANAK MUNTA",
+                            "nricFinNumber": "BN00013541",
+                            "dateOfBirth": "1967-01-22T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2026,
+                            "patientName": "HJ MOHD SERUDIN",
+                            "nricFinNumber": "BN00015443",
+                            "dateOfBirth": "1958-05-11T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2027,
+                            "patientName": "MALTA UNTONG",
+                            "nricFinNumber": "BN00023772",
+                            "dateOfBirth": "1953-01-01T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2028,
+                            "patientName": "RAFIDAH AMAT",
+                            "nricFinNumber": "BN40027501",
+                            "dateOfBirth": "1987-10-09T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2029,
+                            "patientName": "JAYA TUNGGOI",
+                            "nricFinNumber": "BN00005343",
+                            "dateOfBirth": "1962-10-05T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2030,
+                            "patientName": "SUKINAH BERUDIN",
+                            "nricFinNumber": "BN05000736",
+                            "dateOfBirth": "1954-10-13T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2031,
+                            "patientName": "HJ KAMIS ELIM",
+                            "nricFinNumber": "BN03000289",
+                            "dateOfBirth": "1958-05-15T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2032,
+                            "patientName": "YONG MENG SANG",
+                            "nricFinNumber": "BN00004872",
+                            "dateOfBirth": "1962-09-02T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2033,
+                            "patientName": "HJ ABD AZIZ HJ HAMID",
+                            "nricFinNumber": "BN07000908",
+                            "dateOfBirth": "1952-05-08T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2034,
+                            "patientName": "ROSLINAH HJ SELAMAT",
+                            "nricFinNumber": "BN00005585",
+                            "dateOfBirth": "1989-12-03T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2035,
+                            "patientName": "LURIN ANAK ALAU@NURSYIFA",
+                            "nricFinNumber": "BN00007383",
+                            "dateOfBirth": "1969-06-12T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2036,
+                            "patientName": "AWG BESAR AHMAD",
+                            "nricFinNumber": "BN00006109",
+                            "dateOfBirth": "1957-05-08T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2037,
+                            "patientName": "DULANG GANIT",
+                            "nricFinNumber": "BN00016301",
+                            "dateOfBirth": "1958-05-18T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2038,
+                            "patientName": "DANG ALAS AKUT@SITI AISYAH",
+                            "nricFinNumber": "BN00011826",
+                            "dateOfBirth": "1959-09-07T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2039,
+                            "patientName": "RASINAH ADIS",
+                            "nricFinNumber": "BN00004428",
+                            "dateOfBirth": "1958-07-07T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2040,
+                            "patientName": "MAHANI AWANG",
+                            "nricFinNumber": "BN00006298",
+                            "dateOfBirth": "1964-02-08T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2041,
+                            "patientName": "ERNA ROZIANA BINTI YAHYA",
+                            "nricFinNumber": "BN00015519",
+                            "dateOfBirth": "1990-10-08T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2042,
+                            "patientName": "ZULHLISNI YUNUS",
+                            "nricFinNumber": "BN05001900",
+                            "dateOfBirth": "1988-10-02T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2043,
+                            "patientName": "NORASIAH JUNIT",
+                            "nricFinNumber": "BN00006941",
+                            "dateOfBirth": "1975-09-08T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2045,
+                            "patientName": "NORAIN ABDULLAH",
+                            "nricFinNumber": "BN00002571",
+                            "dateOfBirth": "1957-07-14T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2046,
+                            "patientName": "IZYAN IZZATI ISMAIL",
+                            "nricFinNumber": "BN07001665",
+                            "dateOfBirth": "1985-11-09T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2047,
+                            "patientName": "KHAIRUL ADDINA",
+                            "nricFinNumber": "BN07000687",
+                            "dateOfBirth": "2001-07-28T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2048,
+                            "patientName": "NORAZERA RUZAIMAN",
+                            "nricFinNumber": "BN03001613",
+                            "dateOfBirth": "1993-02-18T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2049,
+                            "patientName": "HJH ZAIMAH HJ ABDUL GHANI",
+                            "nricFinNumber": "BN00009107",
+                            "dateOfBirth": "1969-01-05T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2050,
+                            "patientName": "MOHD HAILMI BIN ASMAD",
+                            "nricFinNumber": "BN40197507",
+                            "dateOfBirth": "1982-08-22T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2051,
+                            "patientName": "AK MUHD AZRI PG HJ LUDIN",
+                            "nricFinNumber": "BN00005075",
+                            "dateOfBirth": "1997-07-01T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2052,
+                            "patientName": "MOHAMMAD ALI HJ ISMAIL",
+                            "nricFinNumber": "BN00033613",
+                            "dateOfBirth": "1983-09-23T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2053,
+                            "patientName": "ASMAH HJ TAMIT",
+                            "nricFinNumber": "BN00006992",
+                            "dateOfBirth": "1965-06-20T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2054,
+                            "patientName": "MARA ANAK MANGAT",
+                            "nricFinNumber": "BN00016849",
+                            "dateOfBirth": "1968-11-15T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2055,
+                            "patientName": "MD ZULKIFLI ABDULLAH",
+                            "nricFinNumber": "BN00004610",
+                            "dateOfBirth": "1963-05-19T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2056,
+                            "patientName": "LITA ANAK UDIN",
+                            "nricFinNumber": "BN07002568",
+                            "dateOfBirth": "1979-06-06T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2057,
+                            "patientName": "HJH JABIDAH BINCHUT ",
+                            "nricFinNumber": "BN00013753",
+                            "dateOfBirth": "1951-05-02T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2058,
+                            "patientName": "HJH RAHANA MD ABD AZIZ",
+                            "nricFinNumber": "BN00001014",
+                            "dateOfBirth": "1961-10-09T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2059,
+                            "patientName": "DZULKEFLI ABDULLAH",
+                            "nricFinNumber": "BN00019738",
+                            "dateOfBirth": "1953-05-13T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2060,
+                            "patientName": "HJ YUSOF HJ MARSHIDI",
+                            "nricFinNumber": "BN00002742",
+                            "dateOfBirth": "1949-02-09T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2061,
+                            "patientName": "MAZRI MASHADI",
+                            "nricFinNumber": "BN40307381",
+                            "dateOfBirth": "1983-02-18T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2062,
+                            "patientName": "AMINAH JAMBUL",
+                            "nricFinNumber": "BN40044507",
+                            "dateOfBirth": "1961-05-12T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2063,
+                            "patientName": "MARIAH BADAU",
+                            "nricFinNumber": "BN06001276",
+                            "dateOfBirth": "1965-07-11T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2064,
+                            "patientName": "ADANAN KASIM",
+                            "nricFinNumber": "BN00010277",
+                            "dateOfBirth": "1969-02-25T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2065,
+                            "patientName": "KAPAT BALU",
+                            "nricFinNumber": "BN00013821",
+                            "dateOfBirth": "1968-05-26T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2066,
+                            "patientName": "AMIL BULAT",
+                            "nricFinNumber": "BN00003147",
+                            "dateOfBirth": "1953-12-10T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2067,
+                            "patientName": "NUR SANIAH ABDULLAH",
+                            "nricFinNumber": "BN00012137",
+                            "dateOfBirth": "1966-01-15T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2068,
+                            "patientName": "MANSOR MAJID",
+                            "nricFinNumber": "BN07000485",
+                            "dateOfBirth": "1956-12-13T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2069,
+                            "patientName": "DIDIE ROHANI ABDULLAH  M.",
+                            "nricFinNumber": "BN00013388",
+                            "dateOfBirth": "1974-01-15T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2070,
+                            "patientName": "SITI NURUL SABRIANA HJ SERBINI",
+                            "nricFinNumber": "BN54002168",
+                            "dateOfBirth": "1987-05-04T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2071,
+                            "patientName": "ZARIZAH JAPARI",
+                            "nricFinNumber": "BN00024649",
+                            "dateOfBirth": "1993-07-13T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2072,
+                            "patientName": "EDDY SYAFIQ BAKAR",
+                            "nricFinNumber": "BN00026002",
+                            "dateOfBirth": "1997-08-07T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2073,
+                            "patientName": "LETIFAH ABDULLAH",
+                            "nricFinNumber": "BN00016885",
+                            "dateOfBirth": "1971-12-02T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2074,
+                            "patientName": "SITI FATIMAH KASTURI",
+                            "nricFinNumber": "BN03002684",
+                            "dateOfBirth": "1966-09-22T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2075,
+                            "patientName": "RAFPIN SULAH",
+                            "nricFinNumber": "BN00006201",
+                            "dateOfBirth": "1967-11-01T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2076,
+                            "patientName": "AWAYNA MUHD AZIZAN",
+                            "nricFinNumber": "BN03004034",
+                            "dateOfBirth": "1997-05-20T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2077,
+                            "patientName": "ALI ZAINAL ARIFFIN MANAH",
+                            "nricFinNumber": "BN00006091",
+                            "dateOfBirth": "1957-01-10T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2078,
+                            "patientName": "ABD FATRA HJ JAMUDDIN",
+                            "nricFinNumber": "BN00020356",
+                            "dateOfBirth": "1955-12-22T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2079,
+                            "patientName": "JUNOK SALAP",
+                            "nricFinNumber": "BN40010270",
+                            "dateOfBirth": "1963-10-20T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2080,
+                            "patientName": "DOLLAH BUJANG",
+                            "nricFinNumber": "BN00030756",
+                            "dateOfBirth": "1975-05-15T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2081,
+                            "patientName": "SARIAH HJ MD DAUD",
+                            "nricFinNumber": "BN00011236",
+                            "dateOfBirth": "1966-10-21T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2082,
+                            "patientName": "RUSAIMAH HJ MD IDRIS",
+                            "nricFinNumber": "BN03001488",
+                            "dateOfBirth": "1978-07-19T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2083,
+                            "patientName": "HJH NORSINAH HJ MUHIN",
+                            "nricFinNumber": "BN00004360",
+                            "dateOfBirth": "1966-10-21T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2084,
+                            "patientName": "TARMAT HJ YAKOP",
+                            "nricFinNumber": "BN40162643",
+                            "dateOfBirth": "1969-01-04T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2085,
+                            "patientName": "NALAM DINGAI",
+                            "nricFinNumber": "BN00007749",
+                            "dateOfBirth": "1971-05-11T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2086,
+                            "patientName": "SITI NORMAYA AWG BESAR",
+                            "nricFinNumber": "BN76000082",
+                            "dateOfBirth": "1977-07-16T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2087,
+                            "patientName": "MD FAIZ RIZWAN ",
+                            "nricFinNumber": "BN00010837",
+                            "dateOfBirth": "1994-10-13T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2088,
+                            "patientName": "ALI HJ MOKTAR",
+                            "nricFinNumber": "BN00009299",
+                            "dateOfBirth": "1959-11-03T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2089,
+                            "patientName": "YING YING HO",
+                            "nricFinNumber": "BN00007937",
+                            "dateOfBirth": "1994-07-01T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2091,
+                            "patientName": "MUZAKKIR MOHAMMAD",
+                            "nricFinNumber": "BN00012968",
+                            "dateOfBirth": "1993-02-05T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2092,
+                            "patientName": "NOORELAHWATI HJ ABDULLAH",
+                            "nricFinNumber": "BN40074250",
+                            "dateOfBirth": "1977-04-14T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2093,
+                            "patientName": "HAMIDAH HJ HASSAN",
+                            "nricFinNumber": "BN00003805",
+                            "dateOfBirth": "1962-05-25T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2094,
+                            "patientName": "ROMEO HJ LAHID",
+                            "nricFinNumber": "BN40004484",
+                            "dateOfBirth": "1972-06-10T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2095,
+                            "patientName": "HJH KARINAH ASAN",
+                            "nricFinNumber": "BN00008016",
+                            "dateOfBirth": "1963-11-23T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2096,
+                            "patientName": "HAMDAN HJ NARUDIN",
+                            "nricFinNumber": "BN00025361",
+                            "dateOfBirth": "1964-05-24T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2097,
+                            "patientName": "MOHD ABDULLAHMAHDINI",
+                            "nricFinNumber": "BN00014714",
+                            "dateOfBirth": "1960-08-10T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2098,
+                            "patientName": "SYUKRIN RAMLEE",
+                            "nricFinNumber": "BN00019439",
+                            "dateOfBirth": "1984-08-11T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2099,
+                            "patientName": "NOR RADZIAH SUNI",
+                            "nricFinNumber": "BN06002719",
+                            "dateOfBirth": "1987-11-01T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2101,
+                            "patientName": "KHAIRUL AZMAN KARIA",
+                            "nricFinNumber": "BN00003495",
+                            "dateOfBirth": "1999-01-23T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2102,
+                            "patientName": "HARIYATI PAUJI",
+                            "nricFinNumber": "BN40003555",
+                            "dateOfBirth": "1984-02-17T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2103,
+                            "patientName": "KADIR HJ ALI",
+                            "nricFinNumber": "BN00006460",
+                            "dateOfBirth": "1950-09-20T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2104,
+                            "patientName": "HJ MAHMUD IBRAHIM",
+                            "nricFinNumber": "BN00007913",
+                            "dateOfBirth": "1958-07-28T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2105,
+                            "patientName": "LIZA HJ AHMAD",
+                            "nricFinNumber": "BN00010180",
+                            "dateOfBirth": "1975-08-16T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2106,
+                            "patientName": "JURIAH KADIR",
+                            "nricFinNumber": "BN59000527",
+                            "dateOfBirth": "1973-03-27T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2107,
+                            "patientName": "SULAIMAN HJ MATUSIN",
+                            "nricFinNumber": "BN10028464",
+                            "dateOfBirth": "1958-07-06T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2108,
+                            "patientName": "LATIFAH OMAR",
+                            "nricFinNumber": "BN00000899",
+                            "dateOfBirth": "1966-06-02T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2110,
+                            "patientName": "HJ ADNAN HJ TAHA",
+                            "nricFinNumber": "BN00003508",
+                            "dateOfBirth": "1944-08-27T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2243,
+                            "patientName": "AMINA MARYAM ABDUR RAZAK",
+                            "nricFinNumber": "BN00011921",
+                            "dateOfBirth": "1975-02-09T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2244,
+                            "patientName": "MUHAMMAD MALIK REDUAN MUHAMMAD DANIAL",
+                            "nricFinNumber": "BN53020496",
+                            "dateOfBirth": "1979-06-22T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2248,
+                            "patientName": "Test",
+                            "nricFinNumber": "BN40198913",
+                            "dateOfBirth": "1954-05-16T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2249,
+                            "patientName": "HJ SAMAT OMAR",
+                            "nricFinNumber": "BN40328663",
+                            "dateOfBirth": "1972-01-05T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2250,
+                            "patientName": "NUR AFROZA INSYIRAH HAMDANI",
+                            "nricFinNumber": "BN06000547",
+                            "dateOfBirth": "2006-10-12T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2251,
+                            "patientName": "MOHAMMAD JOFRI ABDULLAH",
+                            "nricFinNumber": "BN00026683",
+                            "dateOfBirth": "1968-07-06T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2252,
+                            "patientName": "HJH SAIDAH OTHMAN",
+                            "nricFinNumber": "BN00002225",
+                            "dateOfBirth": "1958-02-08T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2253,
+                            "patientName": "ABANG KAMALUDDIN ABANG MD NOOR",
+                            "nricFinNumber": "BN10047533",
+                            "dateOfBirth": "1965-09-10T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2254,
+                            "patientName": "SITI NORAIN ABDUL RAHMAN",
+                            "nricFinNumber": "BN00008682",
+                            "dateOfBirth": "1970-11-10T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2255,
+                            "patientName": "MOHD NAZIB HJ AWG CHUCHU",
+                            "nricFinNumber": "BN00008697",
+                            "dateOfBirth": "1984-11-04T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2256,
+                            "patientName": "ABD LATIP HJ JAMUDDIN",
+                            "nricFinNumber": "BN00002799",
+                            "dateOfBirth": "1960-08-28T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2257,
+                            "patientName": "MD NURUL HISHAM ABDULLAH",
+                            "nricFinNumber": "BN00010149",
+                            "dateOfBirth": "1961-09-08T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2258,
+                            "patientName": "ABANG HJ SAIDI",
+                            "nricFinNumber": "BN00012211",
+                            "dateOfBirth": "1950-12-19T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2259,
+                            "patientName": "HJH HIRANI HJ MUSTAPA",
+                            "nricFinNumber": "BN00013199",
+                            "dateOfBirth": "1960-06-12T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2260,
+                            "patientName": "MOHAMMAD FARHAN MANAF",
+                            "nricFinNumber": "BN10027927",
+                            "dateOfBirth": "1987-10-29T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2261,
+                            "patientName": "HJ ABDUL KHALID HJ ALI",
+                            "nricFinNumber": "BN07000295",
+                            "dateOfBirth": "1982-06-26T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2263,
+                            "patientName": "Dummy 002 , (  )",
+                            "nricFinNumber": "BN00000816",
+                            "dateOfBirth": "2001-01-01T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2264,
+                            "patientName": "Dummy 003 , (  )",
+                            "nricFinNumber": "BN00000817",
+                            "dateOfBirth": "2001-01-01T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2265,
+                            "patientName": "Dummy 003 , (  )",
+                            "nricFinNumber": "BN00000818",
+                            "dateOfBirth": "2001-01-01T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2273,
+                            "patientName": "Dummy 003 , (  )",
+                            "nricFinNumber": "BN00000823",
+                            "dateOfBirth": "2001-01-01T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2274,
+                            "patientName": "Dummy 003 , (  )",
+                            "nricFinNumber": "BN00000824",
+                            "dateOfBirth": "2001-01-01T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2279,
+                            "patientName": "Kamilah Muhammad",
+                            "nricFinNumber": "BN00000370",
+                            "dateOfBirth": "2025-08-12T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2290,
+                            "patientName": "Rtims Testing 3, (  )",
+                            "nricFinNumber": "BN00002674",
+                            "dateOfBirth": "1980-08-11T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2291,
+                            "patientName": "Rtims Testing 4, (  )",
+                            "nricFinNumber": "BN00002675",
+                            "dateOfBirth": "2017-04-21T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2292,
+                            "patientName": "Rtims Testing 5, (  )",
+                            "nricFinNumber": "BN00002676",
+                            "dateOfBirth": "2001-03-26T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2293,
+                            "patientName": "Muhammad Nur Azamuddin , (  )",
+                            "nricFinNumber": "BN00002227",
+                            "dateOfBirth": "2000-06-04T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2295,
+                            "patientName": "Rtims Testing 6, (  )",
+                            "nricFinNumber": "BN00002677",
+                            "dateOfBirth": "2001-10-20T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2296,
+                            "patientName": "Rtims Testing 7, (  )",
+                            "nricFinNumber": "BN00002678",
+                            "dateOfBirth": "1970-05-09T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2297,
+                            "patientName": "Bruhealth Pat11 , (  )",
+                            "nricFinNumber": "BN00001632",
+                            "dateOfBirth": "1995-04-01T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2299,
+                            "patientName": "Shahrazen Said, (  )",
+                            "nricFinNumber": "BN00000350",
+                            "dateOfBirth": "1994-07-10T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2300,
+                            "patientName": "KIBAT BIN ABOI",
+                            "nricFinNumber": "BN06000056",
+                            "dateOfBirth": "1971-07-01T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2302,
+                            "patientName": "Testing @rtims' , ( Datuk )",
+                            "nricFinNumber": "BN00002680",
+                            "dateOfBirth": "2025-08-07T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2303,
+                            "patientName": "Nur Afroza Insyirah Binti Hamdani",
+                            "nricFinNumber": "06000547",
+                            "dateOfBirth": "2006-10-12T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2304,
+                            "patientName": "Murad , ( Unknown Adult )",
+                            "nricFinNumber": "BN00000499",
+                            "dateOfBirth": "1985-10-06T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2305,
+                            "patientName": "Rtims Testing 8, (  )",
+                            "nricFinNumber": "BN00002681",
+                            "dateOfBirth": "2017-04-21T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2306,
+                            "patientName": "Rtims Testing 9, (  )",
+                            "nricFinNumber": "BN00002683",
+                            "dateOfBirth": "1980-08-11T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2307,
+                            "patientName": "Rumi Golden, (  )",
+                            "nricFinNumber": "BN00002685",
+                            "dateOfBirth": "1998-09-11T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2308,
+                            "patientName": "Rtims Testing 5, (  )",
+                            "nricFinNumber": "BN00002686",
+                            "dateOfBirth": "1980-08-11T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2309,
+                            "patientName": "Muhd Syazmeenul Azmeen Awg Kasuma",
+                            "nricFinNumber": "BN10067257",
+                            "dateOfBirth": "1994-03-10T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2310,
+                            "patientName": "Hjh Noraini Abdul Mokti",
+                            "nricFinNumber": "BN00012949",
+                            "dateOfBirth": "1960-06-12T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2311,
+                            "patientName": "Masuriana Kunol",
+                            "nricFinNumber": "BN00026544",
+                            "dateOfBirth": "1986-09-09T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2318,
+                            "patientName": "Rtims Testing 9, (  )",
+                            "nricFinNumber": "BN00002691",
+                            "dateOfBirth": "1975-08-11T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2319,
+                            "patientName": "Kareena Kapor, (  )",
+                            "nricFinNumber": "BN00000344",
+                            "dateOfBirth": "1994-12-30T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2320,
+                            "patientName": "Rtims Testing 8, (  )",
+                            "nricFinNumber": "BN00002684",
+                            "dateOfBirth": "2010-09-02T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2351,
+                            "patientName": "Rtims Testing 11, (  )",
+                            "nricFinNumber": "BN00002690",
+                            "dateOfBirth": "2017-04-21T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2352,
+                            "patientName": "Rtims Testing 11, (  )",
+                            "nricFinNumber": "BN00002695",
+                            "dateOfBirth": "2017-04-21T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2353,
+                            "patientName": "UNKNOWN-001 Male 15/02/2025 10:11",
+                            "nricFinNumber": "BN00002651",
+                            "dateOfBirth": "1995-02-15T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2354,
+                            "patientName": "Ms , ( Unknown Adult )",
+                            "nricFinNumber": "BN00002652",
+                            "dateOfBirth": "1995-02-15T00:00",
+                            "gender": 2
+                        },
+                        {
+                            "patientId": 2355,
+                            "patientName": "UNKNOWN-003 Male 15/02/2025 10:11",
+                            "nricFinNumber": "BN00002653",
+                            "dateOfBirth": "1995-02-15T00:00",
+                            "gender": 1
+                        },
+                        {
+                            "patientId": 2356,
+                            "patientName": "UNKNOWN-004 Male 15/02/2025 10:11",
+                            "nricFinNumber": "BN00002654",
+                            "dateOfBirth": "1995-02-15T00:00",
+                            "gender": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "enterpriseId": "1",
+    "businessUnitId": "2",
+    "dataModel": "Both",
+    "responseTime": 1371,
+    "hdimsAdapterUrl": "http://localhost:8080/hdimsAdapterWeb/enterprise/1/businessUnitId/2"
+}

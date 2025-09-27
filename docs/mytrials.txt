@@ -1,0 +1,1 @@
+https://github.com/hnawaz007/AI/blob/main/OCR%20with%20Ollama/Ollama%20OCR%20Receipt%20to%20dataframe.ipynb

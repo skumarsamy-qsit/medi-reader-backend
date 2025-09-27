@@ -8,6 +8,10 @@ node_modules/
 .vscode/
 .husky/
 dist/
+extracted/
+to_extract/
+output/
+HDScreenImages
 serverside/dist
 build/
 web-build/
@@ -23,6 +27,8 @@ expo-env.d.ts
 *.key
 *.mobileprovision
 *.log
+*.logs
+test*
 
 
 # metro

@@ -114,13 +114,6 @@ export class DataTransformers {
                         DeviceModel: MODEL_MAPPING[iotDevice.model] || `Model ${iotDevice.model}`,
                         Brand: BRAND_MAPPING[iotDevice.brandName] || `Brand ${iotDevice.brandName}`,
                         SerialNumber: iotDevice.serialNumber || `SN${iotDevice.deviceId.toString().padStart(3, '0')}`,
-                        Location: businessUnit.businessUnitName,
-                        Department: 'Nephrology', // Default department for dialysis devices
-                        InstallationDate: new Date().toISOString().split('T')[0], // Default to today
-                        LastMaintenanceDate: new Date().toISOString().split('T')[0], // Default to today
-                        NextMaintenanceDate: new Date(Date.now() + 90 * 24 * 60 * 60 * 1000).toISOString().split('T')[0], // 90 days from now
-                        BusinessUnitCode: businessUnit.businessUnit10charCode,
-                        EnterpriseCode: `ENT${enterpriseData.data.enterprise.enterpriseId.toString().padStart(3, '0')}`,
                         Notes: iotDevice.remarks || iotDevice.deviceDescription || '',
                         Status: 'Active' // Default status
                     };

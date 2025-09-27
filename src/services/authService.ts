@@ -2,6 +2,7 @@ import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 import { v4 as uuidv4 } from 'uuid';
 import axios from 'axios';
+import { getEnterpriseApiService } from './enterpriseApiService.js';
 
 export interface User {
   id: string;
@@ -213,7 +214,6 @@ class AuthService {
 
         // Generate our own tokens for session management
         const { token, refreshToken } = this.generateTokens(user.id);
-
         console.log('✅ [AuthService] ===== LOGIN SUCCESS =====');
         console.log('✅ [AuthService] User ID:', user.id);
         console.log('✅ [AuthService] Username:', user.firstName);
@@ -401,6 +401,18 @@ class AuthService {
       if (refreshToken) {
         this.refreshTokens.delete(refreshToken);
       }
+
+      // Clear all user data from memory storage
+      this.users.clear();
+      
+      // Clear all refresh tokens
+      this.refreshTokens.clear();
+      
+      // Clear all reset tokens
+      this.resetTokens.clear();
+
+      console.log('🧹 [AuthService] ===== LOGOUT CLEANUP COMPLETE =====');
+      console.log('🧹 [AuthService] Cleared all user data, refresh tokens, and reset tokens');
 
       return {
         success: true,

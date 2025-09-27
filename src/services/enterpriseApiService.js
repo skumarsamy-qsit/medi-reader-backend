@@ -1,6 +1,5 @@
 // Enterprise API Service for MediReader24 Backend
 import logger from './logger.js';
-
 export class EnterpriseApiService {
     constructor() {
         this.ENTERPRISE_API_URL = 'http://localhost:8080/hdimsAdapterWeb/enterprise';
@@ -10,7 +9,7 @@ export class EnterpriseApiService {
     async fetchEnterpriseData(enterpriseId, businessUnitId = null) {
         const context = 'EnterpriseApiService.fetchEnterpriseData';
         const url = businessUnitId 
-            ? `${this.ENTERPRISE_API_URL}/${enterpriseId}?businessUnitId=${businessUnitId}`
+            ? `${this.ENTERPRISE_API_URL}/${enterpriseId}/businessUnitId/${businessUnitId}`
             : `${this.ENTERPRISE_API_URL}/${enterpriseId}`;
             
         logger.info('Fetching enterprise data from API', { 
@@ -100,6 +99,97 @@ export class EnterpriseApiService {
             businessUnitId
         });
         throw lastError || new Error('Failed to fetch enterprise data after all retries');
+    }
+
+    async fetchLookupData(enterpriseId, lookupNames) {
+        const context = 'EnterpriseApiService.fetchLookupData';
+        const url = `http://localhost:8080/hdimsAdapterWeb/lookups/${enterpriseId}/names`;
+        
+        logger.info('Fetching lookup data from API', { 
+            context,
+            url,
+            enterpriseId,
+            lookupNames 
+        });
+
+        try {
+            const controller = new AbortController();
+            const timeoutId = setTimeout(() => controller.abort(), this.TIMEOUT);
+
+            const response = await fetch(url, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json',
+                },
+                body: JSON.stringify({ lookupNames: lookupNames }),
+                signal: controller.signal,
+            });
+
+            clearTimeout(timeoutId);
+
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+
+            const data = await response.json();            
+            logger.info('Lookup data fetched and stored successfully', {
+                context,
+                enterpriseId,
+                lookupNames,
+                dataKeys: Object.keys(data)
+            });
+
+            return data;
+        } catch (error) {
+            logger.error('Failed to fetch lookup data', {
+                context,
+                error: error.message,
+                url,
+                enterpriseId,
+                lookupNames
+            });
+            throw new Error(`Failed to fetch lookup data: ${error.message}`);
+        }
+    }
+
+    async fetchLookupDataWithRetry(enterpriseId, lookupNames, maxRetries = 3) {
+        const context = 'EnterpriseApiService.fetchLookupDataWithRetry';
+        let lastError = null;
+
+        for (let attempt = 1; attempt <= maxRetries; attempt++) {
+            try {
+                logger.debug(`Attempt ${attempt}/${maxRetries} to fetch lookup data`, {
+                    context,
+                    enterpriseId,
+                    lookupNames
+                });
+                return await this.fetchLookupData(enterpriseId, lookupNames);
+            } catch (error) {
+                lastError = error;
+                logger.warn(`Attempt ${attempt} failed`, {
+                    context,
+                    error: error.message,
+                    enterpriseId,
+                    lookupNames
+                });
+                
+                if (attempt < maxRetries) {
+                    const delay = Math.pow(2, attempt) * 1000; // Exponential backoff
+                    logger.debug(`Waiting ${delay}ms before retry`, { context });
+                    await new Promise(resolve => setTimeout(resolve, delay));
+                }
+            }
+        }
+
+        logger.error('All retry attempts failed for lookup data', {
+            context,
+            maxRetries,
+            lastError: lastError?.message,
+            enterpriseId,
+            lookupNames
+        });
+        throw lastError || new Error('Failed to fetch lookup data after all retries');
     }
 }
 
